@@ -9,7 +9,8 @@ This Shiny app provides a graphical user interface for analyzing protein concent
 3. [Installing Required R Packages](#installing-required-r-packages)
 4. [Running the Shiny App](#running-the-shiny-app)
 5. [Using the App](#using-the-app)
-6. [Troubleshooting](#troubleshooting)
+6. [Example CSV Files](#example-csv-files)
+7. [Troubleshooting](#troubleshooting)
 
 ## Prerequisites
 - **Operating System**: Windows, macOS, or Linux
@@ -79,6 +80,15 @@ Replace `"path/to/your/app.R"` with the actual path to the `app.R` file on your 
 
 3. **Protocols Tab**:
    - Follow the detailed protocols for preparing standards and measuring protein concentrations.
+
+## Example CSV Files
+
+The Shiny app requires CSV files in a specific format for the standards and unknown samples. Example CSV files (`standards.csv` and `unknown_sample.csv`) are provided in this repository to guide you:
+
+- `standards.csv`: This file contains the standard curve data with columns for standard ID, concentration, and absorbance. Format your standards data in this way for successful processing.
+- `unknown_sample.csv`: This file contains data for unknown samples with columns for sample ID and absorbance. Format your unknown samples data according to this example for correct analysis.
+
+Use these example files as templates to format your data correctly before uploading them to the app.
 
 ## Troubleshooting
 
